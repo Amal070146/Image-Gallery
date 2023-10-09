@@ -8,7 +8,7 @@ function thumbnailLoop() {
   var i;
   for (i = 0; i < 5; i++) {
     var newImage = document.createElement("img");
-    newImage.setAttribute("src", "images/pic" + (i + 1) + ".jpg");
+    newImage.setAttribute("src", "pic" + (i + 1) + ".jpg");
     thumbBar.appendChild(newImage);
   }
 }
